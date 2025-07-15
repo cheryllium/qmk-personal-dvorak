@@ -1,4 +1,6 @@
-# QMK Programmer Dvorak
+# QMK Custom Personal Keyboard Layout
+
+**NOTE** This is a custom keymap I created for my personal use. It is based on programmer dvorak, but with the $ and @ keys swapped. 
 
 ## QMK Setup
 
