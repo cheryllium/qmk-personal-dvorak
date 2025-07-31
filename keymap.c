@@ -106,9 +106,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
                 tap_code(KC_3);
                 register_mods(mods);
             } else {
-                // For }, we need to send what produces } on YOUR system
-                // Since S(KC_GRV) is producing }, use that
-                tap_code16(S(KC_GRV));
+                tap_code16(S(KC_RBRC));
             }
             return false;
             
